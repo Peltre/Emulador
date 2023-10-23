@@ -6,6 +6,19 @@ Emulador de CPU | C++ | Collab w @1andre19 &amp; @carloSalda
 This program emulates the functionality of a CPU in C++
 Including instructions from the assembly lenguage, it displays what the "CPU" is currently doing and the program counter
 
+We use 2 files
+"emulador.cpp" as the main c++ file where the main is found
+"cpu.h" has the description con the cpu we are emulating
+"getInput.h" contains exactly what the title says, how the input is displayed
+
+With the command
+g++ emulador.cpp -o emulador
+You create the .exe file to run the program
+
+And with the command
+& .\'emulador.exe'
+You run the program
+
 ==========
 
 Functionality
